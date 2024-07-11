@@ -1,6 +1,5 @@
-______________________________________________
-![maxresdefault](https://github.com/0x00snape/sniffo/assets/144463175/0d8f04c9-ce3c-43c6-8217-2d07d237a73b)
-
+_____________________________________________
+![maxresdefault](https://github.com/0x00snape/sniffo/assets/144463175/afb47203-665c-43d8-b627-ae0fd9a91f4c)
 ______________________________________________
 # sniffo
 sniffo steals a victims password by camouflaging as sudo without any suspicion,  potentially enabling privilege escalation for root access and stores both correct and incorrect password entries at <code>/tmp/.arp</code>.
