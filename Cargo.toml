@@ -1,0 +1,15 @@
+[package]
+name = "sudo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = "0.26"
+termion = "1.0.0"
+
+[profile.release]
+opt-level = "z"
+lto = true
+panic = 'abort'
+strip = true
+codegen-units = 1
